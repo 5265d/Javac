@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Biblioteca {
-    private List<Livro> livros;
+    private final List<Livro> livros;
 
     public Biblioteca() {
         livros = new ArrayList<>();
